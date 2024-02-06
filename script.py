@@ -68,7 +68,7 @@ def record_and_translate():
                 continue
 
             # Translate the text
-            translation = translator.translate(text, dest='en')
+            translation = translator.translate(text, dest='ja')
             print(f'Translated text: {translation.text}')
 
             # Convert translated text to speech
@@ -78,4 +78,6 @@ def record_and_translate():
             # engine.runAndWait()
 
 # Call the function to record and translate voice
+# output_language = input("Enter the language you want to translate to... en for english, ja for japaneese: ")
+
 record_and_translate()  
