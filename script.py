@@ -41,6 +41,7 @@ def text_to_speech(text):
                     data=json.dumps(response.json()))
 
     audio = io.BytesIO(res.content)
+    pygame.mixer.init()
 
     # Load the audio into a Sound object
     sound = pygame.mixer.Sound(audio)
