@@ -19,7 +19,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd LinguaSync
+  cd LinguaSync2.0
 ```
 
 Install dependencies
@@ -44,7 +44,7 @@ Run the docker image
 
 Run
 ```bash
-    python3 Linguasync.py
+    python script.py
 ```
 
 
