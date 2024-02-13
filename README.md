@@ -30,7 +30,6 @@ Install dependencies
 ```
 install dependencies
 ```bash
-    pip install -r requirements.txt
     pip install fsspec
 ```
 
